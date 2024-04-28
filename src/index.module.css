@@ -1,0 +1,14 @@
+.padding_top_61{
+    padding-top: 61px;
+}
+.df_center{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.padding_top{
+    padding-top: 100px;
+}
+.body_color{
+    background-color: var(--body_color);
+}

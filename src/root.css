@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Libre+Baskerville:wght@400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@100..800&display=swap');
+
+:root{
+    --font_family_Cinzel:"Cinzel", serif;
+    --font_family_Libre:"Libre Baskerville", serif;
+    --font_16px: 16px;
+    --font_24px: 24px;
+    --font_32px: 32px;
+    --font_36px: 36px;
+    --font_weight_1:100;
+    --font_weight_2:200;
+    --font_weight_3:300;
+    --font_weight_4:400;
+    --font_weight_5:500;
+    --font_weight_6:600;
+    --font_weight_7:700;
+    --font_weight_8:800;
+    --body_color: rgb(25, 25, 25 );
+    --gray_color: rgb(160, 160, 160);
+    --color_white: rgb(255, 255, 255);
+    --back_alfa_color: rgba(0 ,0,0, 0.7);
+}

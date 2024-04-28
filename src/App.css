@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+html body{
+  background-color: var(--body_color);
+}
+ul li,ol{
+  list-style-type: none;
+  padding-left: 0rem !important;
+}

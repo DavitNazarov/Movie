@@ -1,0 +1,35 @@
+@import '../root.css';
+.movies_page__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    z-index: 100;
+}
+.movie_nav_title{
+    font-family: var(--font_family_Cinzel);
+    font-size: var(--font_32px);
+    color: var(--color_white);
+}
+.movie_list_navBar{
+    font-size: var(--font_16px);
+    font-family:var(--font_family_Libre);
+    color: var(--color_white);
+}
+@media only screen and (min-width: 768px) {
+    .burger{
+        display: none;
+    }
+    .nav_text{
+     display: flex;
+      gap: 20px;
+    }
+} 
+@media only screen and (max-width: 768px) {
+    .burger{
+        display: block;
+    }
+    .nav_text{
+     display: none;
+    }
+} 

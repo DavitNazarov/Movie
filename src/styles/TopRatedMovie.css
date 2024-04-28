@@ -1,0 +1,102 @@
+/* to center the movies list */
+.Top_rated_conteiner_flex{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: var(--body_color);
+    color: var(--color_white);
+}
+/* modify movies position */
+.Top_rated_conteier{
+    display: grid;
+    grid-gap: 6rem 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Top_rated_title{
+    font-family: var(--font_family_Cinzel);
+    font-size: var(--font_24px);
+    padding-top: 20px;
+}
+.Top_page_index input{
+    padding: 15px;
+    background: none;
+    font-size: 24px;
+    border: none;
+    margin: 10px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    color: var(--gray_color);
+}
+.Top_page_index{
+    margin-top: 50px;
+}
+.Top_page_index input:hover{
+    background-color: rgb(37, 40, 53);
+    transition: 0.3s ease-in-out;
+}
+.Top_rated_conteier_box{
+    position: relative;
+    cursor: pointer;
+    width: 300px;
+}
+.Top_rated_conteier_box img{
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+.Top_rated_conteier_box img:hover{
+    transition: 0.5s all ease-in-out;
+    transform:translateY(-10px);
+}
+.Top_rated_conteier_box_body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    width: 100%;
+    height: 450px;
+}
+.Top_rated_conteier_box_body:hover{
+    opacity: 1;
+}
+@media only  screen and (max-width:968px ) {
+    .Top_rated_conteier{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .Top_rated_conteiner_flex{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Top_rated_conteier_box img{
+        width: 100%;
+    }
+}
+@media only  screen and (max-width: 768px) {
+    .Top_rated_conteier{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+}
+@media only  screen and (max-width: 668px) {
+    .Top_rated_conteier{
+        width: 75%;
+    }
+    .Top_rated_conteier{
+        grid-template-columns: 1fr;
+    }
+    .Top_rated_conteier_box {
+        width: 80%;
+    }
+}

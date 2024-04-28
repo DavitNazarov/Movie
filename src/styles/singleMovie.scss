@@ -1,0 +1,92 @@
+.single_movie_conteiner{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color_white);
+}
+.single_movie_content{
+    padding-top: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single_movie_content{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.single_movie_text{
+    color: white;
+    gap: 20px;
+    h1{
+        background-color: var(--back_alfa_color);
+        font-family: var(--font_family_Libre);
+        font-size: var(--font_36px);
+        font-weight: var(--font_weight_3);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    p{
+        margin-top: 15px;
+        background-color: var(--back_alfa_color);
+        border-radius: 20px;
+        width: 500px;
+        font-family: var(--font_family_Libre);
+        font-size: var(--font_16px);
+        line-height: 30px;
+        padding: 15px;
+    }
+}
+.single_movie_box{
+    display: flex;
+    flex-direction: column;
+}
+.single_movie_desctiption{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: var(--back_alfa_color);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    line-height: 40px;
+    font-family: var(--font_family_Libre);
+    font-size: var(--font_16px);
+}
+.single_movie_span1{
+    font-weight: var(--font_weight_8);
+    font-family: var(--font_family_Cinzel);
+}
+.single_movie_video{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:1000px) {
+    .single_movie_conteiner{
+        padding-top: 200px;
+    }
+    .single_movie_content{
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+    }
+    .single_movie_video{
+        margin-top: 300px;
+    }
+    .single_movie_desctiption{
+        display: flex;
+        flex-direction: column;
+    }
+    .single_movie_box{
+        justify-content: center;
+    }
+}

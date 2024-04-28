@@ -1,0 +1,27 @@
+.position_fixed_navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+.user_select_none{
+    user-select: none;
+}
+.offcanvas{
+    background-color: var(--body_color) !important;
+}
+.display_f_center{
+    display: flex;
+    justify-content: center;
+}
+.err_text{
+    color: red;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main_text{
+    font-family: var(--font_family_Cinzel);
+    color: var(gray_color);
+}

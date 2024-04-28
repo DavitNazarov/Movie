@@ -1,0 +1,69 @@
+.popular_Movie_list_Title{
+    font-size: var(--font_32px);
+    font-family: var(--font_family_Libre);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: var(--gray_color);
+    background-color: var(--body_color);
+}
+.popular_Movie_list_Title_span1{
+    color: var(--color_white);
+    font-family: var(--font_family_Cinzel);
+}
+// movie list conteiner to manage the movies list
+.popular_Movie_list_Conteiner{
+    display: grid;
+    grid-gap: 4rem 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+// card css
+.popular_Movie_list_Card{
+    position: relative;
+    img{
+
+        object-fit: cover;
+        width: 300px;
+        border-radius: 20px;
+        position: relative;
+        top: 0;
+        left: 0; 
+    }
+    img:hover{
+        transition: 0.5s all ease-in-out;
+        transform:translateY(-10px);
+    }
+    cursor: pointer;
+}
+.popular_Movie_list_Card_Body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popular_Movie_list_Card_Body:hover{
+    opacity: 1;
+}
+@media only screen and (max-width:1270px) {
+    .popular_Movie_list_Conteiner{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+@media only screen and (max-width:970px) {
+    .popular_Movie_list_Conteiner{
+        grid-template-columns: 1fr 1fr  ;
+    }
+}
+@media only screen and (max-width:647px) {
+    .popular_Movie_list_Conteiner{
+        grid-template-columns: 1fr   ;
+    }
+}
