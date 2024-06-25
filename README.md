@@ -3,7 +3,7 @@
 
 Look for my code in the live demo.
 
-https://moviedn.netlify.app/
+https://trailersofmovie.netlify.app/
 ## API Reference
 
 #### Get all items
